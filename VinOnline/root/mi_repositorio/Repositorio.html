@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <title>Vinonline</title>
+        <meta name="Descripcion" content="Día a día construyendo un futuro donde el vino nunca falte. Precios, promociones, información y mucho más">
+        <meta name="keywords" content="Vino, viñedos, cabernet, merlot, tinto, syrah, san juan, mendoza, cordoba, catas, degustacion, sommelier">
+        <link href="./assets/Css/style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    </head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark sticky-top">
+        <!-- Brand -->
+        <a class="text-body navbar-brand" href="./index.html">Vinonline</a>
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./views/Nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./views/Galería.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./views/Carta.html">Carta</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Viñedos
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Mendoza</a>
+              <a class="dropdown-item" href="#">Córdoba</a>
+              <a class="dropdown-item" href="#">San Juan</a>
+              <a class="dropdown-item" href="#"> asda</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+
+      <form action="action" class="formulario__form">
+        <fieldset>
+            <legend class="formulario__form--texto">Registrate, tenemos promociones </legend>
+                <br>
+                <label for="Nombre">Nombre</label>
+                <br>
+                <input type="text" id="Nombre" name="Nombre">
+
+                <br><br>
+
+                <label for="Apellido">Apellido</label>
+                <br>
+                <input type="text" id="Apellido" name="Apellido">
+
+                <br><br>
+
+                <label for="Email">Email</label>
+                <br>
+                <input type="email" id="Email" name="Email">
+
+                <br><br>
+
+                <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Dígame"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+        
+                <br><br>
+
+                <label for="Gusto">¿Cuál es tu favorita?</label>
+                <br><br>
+                <select name="Gusto" id="Gusto">
+                    <option value="Choclo">Merlot</option>
+                    <option value="Carne">Syrah</h2>option>
+                    <option value="Humita">Malbec</option>
+                    <option value="Jamon y Queso">Cabernet Sauvignon</option>
+                <br><br>                    
+                </select>
+                <br>
+                <br>
+                <label for="a">¿Querés recibir las promociones a tu mail?</label>
+                <input type="checkbox" name="a" id="a">
+                <br>
+                <br>
+        
+
+
+                              
+       </fieldset>
+    </form>
+</body>
+</html>

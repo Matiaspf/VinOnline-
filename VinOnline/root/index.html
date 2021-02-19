@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Vinonline</title>
+    <meta name="Descripcion" content="Día a día construyendo un futuro donde el vino nunca falte. Precios, promociones, información y mucho más">
+    <meta name="keywords" content="Vino, viñedos, cabernet, merlot, tinto, syrah, san juan, mendoza, cordoba, catas, degustacion, sommelier">
+    <link href="./assets/Css/style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body >
+
+    
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark sticky-top">
+        <!-- Brand -->
+        <a class="text-body navbar-brand" href="./index.html">Vinonline</a>
+      
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="./views/Nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./views/Galería.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./views/Carta.html">Carta</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Viñedos
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Mendoza</a>
+              <a class="dropdown-item" href="#">Córdoba</a>
+              <a class="dropdown-item" href="#">San Juan</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+
+    <h2>Nuestros vinos</h2>
+
+
+    <div class="contenido">   
+
+        <img src="./img/vino 1.jpg" alt="vino1" class="contenido__imagen">
+        <br>
+        <p class="contenido__imagen--texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ullam totam fugiat eligendi ad iste repellendus officiis voluptates reprehenderit ab exercitationem unde deserunt molestiae inventore officia porro voluptate temporibus, veritatis amet! Asperiores inventore magnam incidunt, delectus eum, temporibus est voluptatibus illum soluta suscipit, rerum tempora tenetur omnis vitae assumenda! Ex perferendis aliquid quisquam dicta beatae veniam, fugit qui tempora eum accusantium, recusandae cum ipsum sapiente eveniet totam assumenda molestiae laudantium a? Suscipit voluptatibus ullam nemo ex natus ad, rerum veniam ducimus itaque eius illum, doloribus voluptate libero beatae dignissimos unde, impedit qui minus nam. Unde nisi amet eaque accusamus libero molestias maxime commodi, in nemo aspernatur voluptatum sint, sequi recusandae. Impedit eum qui voluptatum repellendus officia cumque ad, ratione dolorem vero aut magnam sit est nulla, quibusdam nisi quas ipsa! Laboriosam placeat accusantium soluta dicta incidunt sed repellat excepturi exercitationem pariatur explicabo, consequuntur dolor beatae ab perspiciatis quis, error autem.</p>
+        <br>
+    </div>
+
+    <div class="contenido2">
+        <br>
+            <p class="contenido2__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde aperiam exercitationem cupiditate eos vitae in inventore. Rem sapiente nesciunt itaque sunt quia ducimus distinctio libero repudiandae architecto. Ratione alias molestias enim earum, nemo nihil quasi totam facilis aut incidunt similique magni tempora fugiat, illum tenetur beatae inventore rem officiis veritatis perspiciatis ipsam eum? Tempore, ipsa magni ipsam facere delectus, amet assumenda enim quo laboriosam ea debitis eaque voluptatibus, consectetur libero repudiandae inventore impedit recusandae et veniam accusantium? Impedit quod, similique atque commodi possimus voluptate sint quaerat incidunt repellendus reprehenderit laboriosam vitae quidem dolorem quibusdam voluptas iusto suscipit quasi quam dolores. Aspernatur unde temporibus reiciendis, velit sint delectus expedita dolores debitis veniam possimus. Earum, quia? Iusto porro odit corrupti, explicabo et consequuntur animi earum omnis quam dignissimos maiores facilis quasi tenetur corporis molestias atque cumque amet delectus vitae, a, quaerat possimus.</p>
+        <br>
+            <img src="./img/vino2.jpg" alt="vino2" class="contenido2__texto--imagen">                   
+    </div>
+
+    
+
+    <hr>
+
+        <h2 class="formulario">Formulario</h1>
+
+        <form action="action" class="formulario__form">
+            <fieldset>
+                <legend class="formulario__form--texto">Registrate, tenemos promociones </legend>
+                    <br>
+                    <label for="Nombre">Nombre</label>
+                    <br>
+                    <input type="text" id="Nombre" name="Nombre">
+
+                    <br><br>
+
+                    <label for="Apellido">Apellido</label>
+                    <br>
+                    <input type="text" id="Apellido" name="Apellido">
+
+                    <br><br>
+
+                    <label for="Email">Email</label>
+                    <br>
+                    <input type="email" id="Email" name="Email">
+
+                    <br><br>
+
+                    <textarea name="Mensaje" id="Mensaje" cols="30" rows="10" placeholder="Dígame"></textarea>
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+            
+                    <br><br>
+
+                    <label for="Gusto">¿Cuál es tu favorita?</label>
+                    <br><br>
+                    <select name="Gusto" id="Gusto">
+                        <option value="Choclo">Merlot</option>
+                        <option value="Carne">Syrah</h2>option>
+                        <option value="Humita">Malbec</option>
+                        <option value="Jamon y Queso">Cabernet Sauvignon</option>
+                    <br><br>                    
+                    </select>
+                    <br>
+                    <br>
+                    <label for="a">¿Querés recibir las promociones a tu mail?</label>
+                    <input type="checkbox" name="a" id="a">
+                    <br>
+                    <br>
+            
+
+
+                                  
+           </fieldset>
+        </form>
+
+</body>
+
+
+</html>
